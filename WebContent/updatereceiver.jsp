@@ -22,7 +22,7 @@ ps.setInt(2, racno);
 int i=ps.executeUpdate();
 if(i>0)
 {
-	response.sendRedirect("InsertTrans");	
+	response.sendRedirect("inserttrans.jsp");	
 }
 else
 {
