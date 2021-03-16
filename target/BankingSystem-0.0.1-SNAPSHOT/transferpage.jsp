@@ -105,7 +105,7 @@ session.setAttribute("sbalance", sbalance);
          <div class="col-md-6 col-sm-12">
             <div class="login-form-text"><br><br><br><br><br><br>
             <h2>  Transfer<br>    Details</h2>
-               <form action="checkreceiver.jsp">
+               <form action="CheckReceiver.jsp">
                   <div class="form-group">
                      <label>Receiver's Account Number</label>
                      <input type="number" class="form-control" placeholder="Account Number" name="acno" />

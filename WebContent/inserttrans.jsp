@@ -35,7 +35,7 @@ else
 	RequestDispatcher rd=request.getRequestDispatcher("index.html");	
 	rd.include(request, response);
 	out.println("<script>window.alert('Transaction failed')</script>");
-}
+}con.close();
 %>
 </body>
 </html>

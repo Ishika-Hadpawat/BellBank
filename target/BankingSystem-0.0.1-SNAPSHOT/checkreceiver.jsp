@@ -1,6 +1,6 @@
 <%@page import="java.sql.ResultSet"%>
-<%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -57,7 +57,7 @@ else
 	RequestDispatcher rd=request.getRequestDispatcher("transferpage.jsp");
 	rd.include(request, response);
 	out.println("<script>window.alert('Invalid Account No. or Name')</script>");
-}
+}con.close();
 %>
 </body>
 </html>
