@@ -661,7 +661,7 @@
 
           <div class="col-lg-6 col-xs-12 text-lg-left text-center">
             <p class="copyright-text">
-              Â© BELL Bank
+              © BELL Bank
             </p>
             <div class="credits">
               <!--
