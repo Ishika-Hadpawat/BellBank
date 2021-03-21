@@ -26,13 +26,13 @@ ps.setInt(4, amount);
 int i=ps.executeUpdate();
 if(i>0)
 {
-	RequestDispatcher rd=request.getRequestDispatcher("index.html");	
+	RequestDispatcher rd=request.getRequestDispatcher("index.jsp");	
 	rd.include(request, response);
 	out.println("<script>window.alert('Transaction Successful')</script>");
 }
 else
 {
-	RequestDispatcher rd=request.getRequestDispatcher("index.html");	
+	RequestDispatcher rd=request.getRequestDispatcher("index.jsp");	
 	rd.include(request, response);
 	out.println("<script>window.alert('Transaction failed')</script>");
 }con.close();

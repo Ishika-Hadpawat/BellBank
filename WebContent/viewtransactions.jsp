@@ -48,7 +48,7 @@ out.println("No Users Available");
 con.close();
 %>
 </table><br><br>
-<form action="index.html">
+<form action="index.jsp">
 <button class="btn btn-outline-light btn-lg" type="submit" style="margin-left:700px">Close</button>
 </form>
 </body>

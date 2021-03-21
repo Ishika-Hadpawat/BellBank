@@ -12,7 +12,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:rgb(22, 29, 50);font-family:courier">
-<h1 align="center" style="color:rgb(255,255,255)">Customer Details</h1><hr>
+<h1 align="center" style="color:rgb(255,255,255)">Customer Details</h1><br><hr><br>
 <table class="table table-hover " style="color:rgb(255,255,255);font-size:20px">
     <thead>
       <tr>
@@ -47,7 +47,7 @@ out.println("No Users Available");
 con.close();
 %>
 </table><br><br>
-<form action="index.html">
+<form action="index.jsp">
 <button class="btn btn-outline-light btn-lg" type="submit" style="margin-left:700px">Close</button>
 </form>
 </body>
